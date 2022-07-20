@@ -1,0 +1,139 @@
+* {font-family: 'Nunito', sans-serif;
+    box-sizing: border-box; margin: 0;padding: 0;}
+
+.container {width: 1200px; margin: auto;}
+
+.commonpadding {padding: 40px 0px;}
+
+body{background-color: black; color: white;}
+
+ul{list-style-type: none;}
+
+.span1 {font-size: 19px; color: rgb(255, 208, 0);}
+
+h3 {font-size: 30px;  color: rgb(255, 208, 0); text-align: center;}
+
+p {line-height: 30px;}
+
+a {text-decoration: none;}
+/* --------------header----------------- */
+
+header{width: 100%; background-color: rgba(0, 0, 0, 0.644); position: absolute; z-index: 1; border-top: 3px solid rgb(255, 208, 0);}
+
+header .div {display: flex; justify-content: space-between;}
+
+.logo {position: relative;}
+
+.logo img {max-width: 100px; position: absolute;background-color: rgba(0, 0, 0, 0.644); padding: 7px;}
+
+.menu {display: flex;}
+
+.menu a {color: white; padding: 20px; font-size: 16px; display:inline-block;}
+
+header a:hover{ background-color: rgba(0, 0, 0, 0.300); color: rgb(255, 208, 0);}
+
+
+/* --------------front image----------------- */
+
+.frontimage{ width: 100%; position: relative; z-index: -1}
+
+.frontimage img{width: 100%; /*height: 100vh;*/}
+
+.frontimage .form1 {position: absolute; transform: translate(-50%, -85%); top: 85%; left: 50%; background-color: rgba(0, 0, 0, 0.644);
+border-radius: 8px; display: flex; width: 1200px; justify-content: space-evenly; padding: 30px;}
+
+.form1 label{ display: table; padding: 5px 1px;}
+
+.form1 input {padding: 7px; width: 100%;}
+
+.form1 .div1 {width: 27%;}
+
+.form1 .div2 {width: 15%;}
+
+.btn {margin-top: 33px; padding: 7px;width: 100%; background-color: rgb(255, 208, 0); color: white; border: 1px solid rgb(255, 219, 59);}
+
+.btn :hover{background-color: aqua; cursor: pointer;}
+
+/* --------------firstpart 1234----------------- */
+
+.boxes {width: 100%; display: flex; justify-content: space-between;}
+
+.box {width: 23%; border: 1px solid rgb(255, 208, 0); text-align: center;}
+
+.box h2{font-size: 120px; color: rgb(255, 208, 0); }
+
+.box .con {background-color: black; transform: translate(-0%, -40%); padding: 10px;}
+
+
+/* --------------secondpart aboutus----------------- */
+
+.second {width: 100%; display: flex; justify-content: space-between;}
+
+.second .part1 {width: 24%;}
+
+.second .part1 img {width: 100%;}
+
+.second .part2 {width: 50%; text-align: center; padding: 0px 20px;}
+
+.second p {margin: 35px 0px;}
+
+.second a { border: 1px solid rgb(255, 208, 0); padding: 9px 25px; border-radius: 4px; margin: 0px 11px;
+text-decoration: none; display: inline-block; font-size: 12px; color: rgb(255, 208, 0);}
+
+.second a:hover { background-color: rgb(255, 208, 0); color: white;}
+
+/* --------------thirdpart tourpckg----------------- */
+.third h3 {padding: 30px;}
+
+.third .part1 img {position: relative; outline: 2px solid rgb(255, 208, 0); outline-offset: -18px;}
+
+.third .content {background-color: rgba(0, 0, 0, 0.644);position: absolute; top: 90%; bottom: 0; left: 0; right: 0;
+text-align: center; padding-top: 7px;}
+
+/* --------------forthpart longimg----------------- */
+
+.forth img{width: 100%;}
+
+/* --------------fifthpart testimony----------------- */
+
+.fifth { width: 100%; position: relative;}
+
+.fifth img{width: 100%; height: 100vh;}
+
+.fifth .text {position: absolute; transform: translate(-50%, -50%); top: 50%; left: 50%;
+color: white; text-align: center;}
+
+.fifth p{padding: 50px 0px 20px 0px;}
+/* --------------sixthpart images----------------- */
+
+.sixth {width: 100%; display: flex; margin-top: 30px;}
+
+.sixth .part{width: 14.29%;} 
+
+.sixth .part img{width: 100%;}
+
+/* --------------footer----------------- */
+
+footer {background-image: url(../image/footerimg.jpg); background-position: center; background-size: cover;}
+
+footer .div {width: 100%; display: flex; padding: 30px 0px;}
+
+footer .div1 {width: 34%; padding: 0px 15px;}
+
+footer .div2 {width: 22%; padding: 0px 15px;}
+
+footer i {padding-right: 10px; font-size: 16px;}
+
+footer address{font-size: 14px; padding-top: 5px;}
+
+footer > span {display: block;}
+
+footer li {padding: 7px 0px;}
+
+footer a {color: white; font-size: 14px;}
+
+footer .copyright {text-align: center; padding: 20px 0px;}
+
+footer a:hover {color:rgb(255, 208, 0) ;}
+
+footer address:hover {color:rgb(255, 208, 0) ;}
